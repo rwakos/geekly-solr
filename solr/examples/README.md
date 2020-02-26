@@ -38,10 +38,13 @@
 `q=*:*&rows=0&facet=on&facet.range=quoted_at&facet.range.start=NOW-10YEAR&facet.range.end=NOW&facet.range.gap=%2B1YEAR`
 
 13.- Spatial search within a radius
-
+`q=*:*&fq={!geofilt sfield=location}&pt=12.729,-3.85&d=50`
 
 14.- Sorting by distance
+`q=*:*&fq={!geofilt}&sfield=location&pt=12.729,-3.85&d=50&sort=geodist() asc`
 
+15.- Returning the distance
+`&q={!func}geodist()&sfield=location&pt=12.729,-3.85&sort=score+asc&fl=*,score`
 
 ###References
 Quotes taken from: https://www.goodreads.com/quotes/tag/books
