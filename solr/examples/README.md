@@ -65,4 +65,5 @@
 ### References ###
 
 Quotes taken from: https://www.goodreads.com/quotes/tag/books
+
 Cities with geolocations: https://simplemaps.com/data/world-cities
