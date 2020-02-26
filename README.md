@@ -1,5 +1,5 @@
 # geekly-solr
-Workshop Solr @Geekly
+## Workshop Solr @Geekly ##
 
 Create a folder called "data" inside the "solr" folder.
 
