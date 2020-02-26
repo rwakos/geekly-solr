@@ -1,4 +1,5 @@
-#Geekly Workshop | DB Search Engines with Solr
+# Geekly Workshop | DB Search Engines with Solr #
+
 ## Examples ##
 
 1.- How to fetch all data
