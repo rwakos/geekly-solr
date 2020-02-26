@@ -16,6 +16,9 @@ After that, start the container once more.
 `docker-compose up -d`
 
 
+The dummy data is in the folder "config/datainit.json", using the UI from Solr, select the core "phrases", and then select the "Documents" link, paste the json data and hit the button "Submit Document"
+
+
 ### References
 Quotes taken from: https://www.goodreads.com/quotes/tag/books
 
